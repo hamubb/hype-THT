@@ -35,4 +35,5 @@ should be indented with 4 spaces to mark the function or class  block.
 On line number 5: `x = "".join(sorted())` you declared a loop variable which you never used. Sorted expects you to pass an argument which you never did. For help 
 with python builtin functions please type `help(sorted)` when in the python repl so you can see what sorted expects you to pass to it.
 
-Overally, your code will run if you fix :hammer_and_wrench: the problems that I have highlighted above. :smile:
+Overally, your code will run if you fix :hammer_and_wrench: the problems that I have highlighted above. Also, please refer to the PEP8 document or even keep
+one under your pillow so that fellow python programmers who read your code will not cry. :smile:
